@@ -1,0 +1,96 @@
+{
+  "image": "testing-model\\images\\test-kamera7.jpg",
+  "results": [
+    {
+      "label": "Nodule",
+      "confidence": 0.9386,
+      "severity": "berat",
+      "x1": 347,
+      "y1": 429,
+      "x2": 398,
+      "y2": 474,
+      "width": 51,
+      "height": 45,
+      "robustness": 1.134,
+      "timestamp": "2025-11-13 21:34:08"
+    },
+    {
+      "label": "Dark Spot",
+      "confidence": 0.6471,
+      "severity": "sedang",
+      "x1": 123,
+      "y1": 239,
+      "x2": 154,
+      "y2": 268,
+      "width": 31,
+      "height": 29,
+      "robustness": 0.368,
+      "timestamp": "2025-11-13 21:34:08"
+    },
+    {
+      "label": "Whitehead",
+      "confidence": 0.4183,
+      "severity": "ringan",
+      "x1": 190,
+      "y1": 141,
+      "x2": 217,
+      "y2": 165,
+      "width": 27,
+      "height": 24,
+      "robustness": 0.161,
+      "timestamp": "2025-11-13 21:34:08"
+    },
+    {
+      "label": "Skin Redness",
+      "confidence": 0.3564,
+      "severity": "sedang",
+      "x1": 352,
+      "y1": 431,
+      "x2": 392,
+      "y2": 467,
+      "width": 40,
+      "height": 36,
+      "robustness": 0.451,
+      "timestamp": "2025-11-13 21:34:08"
+    },
+    {
+      "label": "Dark Spot",
+      "confidence": 0.328,
+      "severity": "sedang",
+      "x1": 500,
+      "y1": 527,
+      "x2": 533,
+      "y2": 560,
+      "width": 33,
+      "height": 33,
+      "robustness": 0.231,
+      "timestamp": "2025-11-13 21:34:08"
+    },
+    {
+      "label": "Acne Scar",
+      "confidence": 0.2851,
+      "severity": "berat",
+      "x1": 120,
+      "y1": 282,
+      "x2": 165,
+      "y2": 322,
+      "width": 45,
+      "height": 40,
+      "robustness": 0.165,
+      "timestamp": "2025-11-13 21:34:08"
+    },
+    {
+      "label": "Skin Redness",
+      "confidence": 0.2659,
+      "severity": "sedang",
+      "x1": 500,
+      "y1": 527,
+      "x2": 530,
+      "y2": 559,
+      "width": 30,
+      "height": 32,
+      "robustness": 0.192,
+      "timestamp": "2025-11-13 21:34:08"
+    }
+  ]
+}

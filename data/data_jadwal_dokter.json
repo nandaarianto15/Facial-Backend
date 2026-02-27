@@ -1,0 +1,56 @@
+{
+    "mon": [
+        {
+            "name": "dr. Amara Pratama",
+            "specialty": "Dokter Kulit & Estetika",
+            "time": "09.00 – 13.00",
+            "room": "Ruang Konsultasi A"
+        },
+        {
+            "name": "dr. Kelvin Aditya",
+            "specialty": "Dokter Kulit",
+            "time": "15.00 – 19.00",
+            "room": "Ruang Konsultasi B"
+        }
+    ],
+    "tue": [
+        {
+            "name": "dr. Amara Pratama",
+            "specialty": "Dokter Kulit & Estetika",
+            "time": "10.00 – 14.00",
+            "room": "Ruang Konsultasi A"
+        }
+    ],
+    "wed": [],
+    "thu": [
+        {
+            "name": "dr. Nadin Zahra",
+            "specialty": "Dokter Kulit",
+            "time": "16.00 – 20.00",
+            "room": "Ruang Konsultasi C"
+        }
+    ],
+    "fri": [
+        {
+            "name": "dr. Amara Pratama",
+            "specialty": "Dokter Kulit & Estetika",
+            "time": "09.00 – 12.00",
+            "room": "Ruang Konsultasi A"
+        },
+        {
+            "name": "dr. Kelvin Aditya",
+            "specialty": "Dokter Kulit",
+            "time": "13.00 – 17.00",
+            "room": "Ruang Konsultasi B"
+        }
+    ],
+    "sat": [
+        {
+            "name": "dr. Nadin Zahra",
+            "specialty": "Dokter Kulit",
+            "time": "10.00 – 14.00",
+            "room": "Ruang Konsultasi C"
+        }
+    ],
+    "sun": []
+}

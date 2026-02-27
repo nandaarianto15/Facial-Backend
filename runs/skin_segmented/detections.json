@@ -1,0 +1,17 @@
+{
+  "image": "testing-model\\images\\test-kamera8.jpg",
+  "results": [
+    {
+      "label": "Skin Redness",
+      "confidence": 0.438,
+      "severity": "sedang",
+      "x1": 200,
+      "y1": 345,
+      "x2": 238,
+      "y2": 380,
+      "width": 38,
+      "height": 35,
+      "timestamp": "2025-11-13 00:26:38"
+    }
+  ]
+}

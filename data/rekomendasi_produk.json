@@ -1,0 +1,807 @@
+{
+    "GLOBAL_UV": {
+        "low": {
+            "spf": "Gunakan Sunscreen Alenkosa SPF 30 PA+++",
+            "product": {
+                "name": "Alenkosa Daily Defense Sunscreen SPF 30",
+                "image": "",
+                "key_ingredients": [
+                    "UV Filter Hybrid",
+                    "Niacinamide 2%",
+                    "Vitamin E"
+                ],
+                "usage": "Gunakan 15 menit sebelum keluar rumah. Reapply setiap 2 jam.",
+                "benefits": "Melindungi kulit dari radiasi UVA/UVB dan membantu meratakan warna kulit."
+            }
+        },
+        "medium": {
+            "spf": "Gunakan Sunscreen Alenkosa SPF 50 PA++++",
+            "product": {
+                "name": "Alenkosa Ultra Shield Sunscreen SPF 50",
+                "image": "",
+                "key_ingredients": [
+                    "Broad Spectrum UV Filter",
+                    "Hyaluronic Acid",
+                    "Green Tea Extract"
+                ],
+                "usage": "Gunakan setiap pagi. Ulangi setiap 2 jam jika aktivitas luar tinggi.",
+                "benefits": "Memberikan perlindungan tinggi untuk kulit sensitif & mudah iritasi."
+            }
+        },
+        "high": {
+            "spf": "Wajib Sunscreen SPF 50+, gunakan topi/pelindung",
+            "product": {
+                "name": "Alenkosa Extreme UV Protector SPF 60 PA++++",
+                "image": "",
+                "key_ingredients": [
+                    "Titanium Dioxide",
+                    "Zinc Oxide",
+                    "Niacinamide 5%",
+                    "Centella"
+                ],
+                "usage": "Gunakan 2 lapis tipis. Reapply tiap 2 jam.",
+                "benefits": "Proteksi maksimal untuk kondisi UV sangat tinggi, mencegah dark spots & sunburn."
+            }
+        }
+    },
+    "Jerawat": {
+        "ringan": [
+            {
+                "name": "Alenkosa Acne Care Gentle Cleanser",
+                "image": "",
+                "type": "cleanser",
+                "key_ingredients": [
+                    "Salicylic Acid 0.5%",
+                    "Zinc PCA",
+                    "Aloe Vera"
+                ],
+                "usage": "Gunakan pagi dan malam.",
+                "benefits": "Membersihkan minyak berlebih & menjaga pori tetap bersih.",
+                "target": "Jerawat ringan, pori tersumbat, kulit berminyak."
+            },
+            {
+                "name": "Alenkosa Clarifying Toner",
+                "image": "",
+                "type": "toner",
+                "key_ingredients": [
+                    "Witch Hazel",
+                    "Niacinamide 4%"
+                ],
+                "usage": "Gunakan 1-2x sehari.",
+                "benefits": "Menenangkan peradangan dan memperbaiki tekstur kulit."
+            }
+        ],
+        "sedang": [
+            {
+                "name": "Alenkosa Acne Spot Treatment 2.5%",
+                "image": "",
+                "type": "treatment",
+                "key_ingredients": [
+                    "Benzoyl Peroxide 2.5%",
+                    "Panthenol"
+                ],
+                "usage": "Gunakan hanya pada area jerawat, maksimal 1x sehari.",
+                "benefits": "Mengurangi bakteri penyebab jerawat & mempercepat penyembuhan."
+            },
+            {
+                "name": "Alenkosa Niacinamide Serum 10%",
+                "image": "",
+                "type": "serum",
+                "key_ingredients": [
+                    "Niacinamide 10%",
+                    "Zinc 1%"
+                ],
+                "usage": "Gunakan pagi & malam.",
+                "benefits": "Mengontrol minyak dan memudarkan kemerahan sisa jerawat."
+            }
+        ],
+        "berat": [
+            {
+                "name": "Alenkosa Intensive Acne Treatment",
+                "image": "",
+                "type": "treatment",
+                "key_ingredients": [
+                    "Benzoyl Peroxide 5%",
+                    "Adapalene 0.1%"
+                ],
+                "usage": "Gunakan malam hari. Hindari area sensitif.",
+                "benefits": "Menangani jerawat kategori parah seperti nodul & pustula."
+            },
+            {
+                "name": "Alenkosa Skin Barrier Repair Cream",
+                "image": "",
+                "type": "moisturizer",
+                "key_ingredients": [
+                    "Ceramide Complex",
+                    "Centella",
+                    "Squalane"
+                ],
+                "usage": "Gunakan setelah treatment malam.",
+                "benefits": "Memperkuat skin barrier dan mencegah iritasi perawatan jerawat berat."
+            }
+        ]
+    },
+    "Komedo Hitam": {
+        "ringan": [
+            {
+                "name": "Alenkosa Pore Refining Cleanser",
+                "image": "",
+                "key_ingredients": [
+                    "BHA 1%",
+                    "Tea Tree",
+                    "Niacinamide"
+                ],
+                "usage": "Gunakan 1x sehari.",
+                "benefits": "Membuka pori tersumbat dan membersihkan komedo hitam."
+            }
+        ],
+        "sedang": [
+            {
+                "name": "Alenkosa Deep Pore BHA Serum",
+                "image": "",
+                "key_ingredients": [
+                    "Salicylic Acid 2%",
+                    "Green Tea"
+                ],
+                "usage": "Gunakan 2-3x seminggu.",
+                "benefits": "Mengurangi komedo membandel & kontrol minyak."
+            }
+        ],
+        "berat": [
+            {
+                "name": "Alenkosa Sebum Control Treatment",
+                "image": "",
+                "key_ingredients": [
+                    "AHA/BHA Complex",
+                    "Sulfur"
+                ],
+                "usage": "Gunakan malam hari.",
+                "benefits": "Mengatasi penumpukan komedo kronis & menghaluskan tekstur kulit."
+            }
+        ]
+    },
+    "Komedo Putih": {
+        "ringan": [
+            {
+                "name": "Alenkosa Gentle Exfoliating Toner",
+                "image": "",
+                "key_ingredients": [
+                    "Lactic Acid 5%",
+                    "Centella"
+                ],
+                "usage": "Gunakan 2x seminggu.",
+                "benefits": "Mengangkat sel kulit mati & mencegah terbentuknya whiteheads."
+            }
+        ],
+        "sedang": [
+            {
+                "name": "Alenkosa AHA/BHA Renewal Serum",
+                "image": "",
+                "key_ingredients": [
+                    "Glycolic Acid 7%",
+                    "BHA 1.5%"
+                ],
+                "usage": "Gunakan malam hari.",
+                "benefits": "Membersihkan pori secara mendalam & mengurangi whiteheads."
+            }
+        ],
+        "berat": [
+            {
+                "name": "Alenkosa Advanced Peel Treatment",
+                "image": "",
+                "key_ingredients": [
+                    "AHA 10%",
+                    "PHA 5%"
+                ],
+                "usage": "Gunakan 1x seminggu.",
+                "benefits": "Perawatan intens untuk whiteheads membandel."
+            }
+        ]
+    },
+    "Flek Hitam": {
+        "ringan": [
+            {
+                "name": "Alenkosa Brightening Serum",
+                "image": "",
+                "key_ingredients": [
+                    "Niacinamide 5%",
+                    "Vitamin E"
+                ],
+                "usage": "Gunakan pagi & malam.",
+                "benefits": "Mencerahkan kulit & menyamarkan noda ringan."
+            }
+        ],
+        "sedang": [
+            {
+                "name": "Alenkosa Vitamin C Serum 15%",
+                "image": "",
+                "key_ingredients": [
+                    "Ethyl Ascorbic Acid 15%",
+                    "Ferulic Acid"
+                ],
+                "usage": "Gunakan pagi.",
+                "benefits": "Mengurangi hiperpigmentasi & meratakan warna kulit."
+            }
+        ],
+        "berat": [
+            {
+                "name": "Alenkosa Dark Spot Corrector",
+                "image": "",
+                "key_ingredients": [
+                    "Tranexamic Acid 3%",
+                    "Niacinamide 10%"
+                ],
+                "usage": "Gunakan malam hari.",
+                "benefits": "Efektif untuk melasma & flek dalam."
+            }
+        ]
+    },
+    "Kerutan": {
+        "ringan": [
+            {
+                "name": "Alenkosa Hydration Boost Serum",
+                "image": "",
+                "key_ingredients": [
+                    "Hyaluronic Acid",
+                    "Peptides"
+                ],
+                "usage": "Gunakan pagi & malam.",
+                "benefits": "Hidrasi mendalam untuk mengurangi garis halus."
+            }
+        ],
+        "sedang": [
+            {
+                "name": "Alenkosa Retinol Serum 0.3%",
+                "image": "",
+                "key_ingredients": [
+                    "Retinol 0.3%",
+                    "Ceramide"
+                ],
+                "usage": "Gunakan malam, 3x seminggu.",
+                "benefits": "Menghaluskan kerutan & meningkatkan elastisitas kulit."
+            }
+        ],
+        "berat": [
+            {
+                "name": "Alenkosa Advanced Retinoid Cream",
+                "image": "",
+                "key_ingredients": [
+                    "Retinoic Acid Equivalent",
+                    "Peptide Complex"
+                ],
+                "usage": "Gunakan malam hari.",
+                "benefits": "Perawatan intensif kerutan dalam & aging berat."
+            }
+        ]
+    },
+    "Kantung Mata": {
+        "ringan": [
+            {
+                "name": "Alenkosa Eye Cooling Gel",
+                "image": "",
+                "key_ingredients": [
+                    "Caffeine",
+                    "Aloe Vera"
+                ],
+                "usage": "Gunakan pagi & malam.",
+                "benefits": "Mengurangi bengkak & menyegarkan area bawah mata."
+            }
+        ],
+        "sedang": [
+            {
+                "name": "Alenkosa Eye Brightening Serum",
+                "image": "",
+                "key_ingredients": [
+                    "Peptides",
+                    "Niacinamide"
+                ],
+                "usage": "Gunakan malam.",
+                "benefits": "Meningkatkan kekencangan & memudarkan lingkar gelap."
+            }
+        ],
+        "berat": [
+            {
+                "name": "Alenkosa Under Eye Repair Cream",
+                "image": "",
+                "key_ingredients": [
+                    "Retinol Eye-Safe",
+                    "Ceramide"
+                ],
+                "usage": "Gunakan malam.",
+                "benefits": "Mengatasi kantung mata berat & kerutan halus."
+            }
+        ]
+    },
+    "Kulit Berminyak": {
+        "ringan": [
+            {
+                "name": "Alenkosa Oil Control Cleanser",
+                "image": "",
+                "key_ingredients": [
+                    "Zinc PCA",
+                    "Tea Tree"
+                ],
+                "usage": "Gunakan pagi & malam.",
+                "benefits": "Mengontrol minyak & menjaga kulit tetap matte."
+            }
+        ],
+        "sedang": [
+            {
+                "name": "Alenkosa Sebum Balance Serum",
+                "image": "",
+                "key_ingredients": [
+                    "Niacinamide 10%",
+                    "BHA 1%"
+                ],
+                "usage": "Gunakan malam.",
+                "benefits": "Mengurangi produksi minyak & mencegah komedo."
+            }
+        ],
+        "berat": [
+            {
+                "name": "Alenkosa Oil Reset Treatment",
+                "image": "",
+                "key_ingredients": [
+                    "Sulfur",
+                    "Salicylic Acid 2%"
+                ],
+                "usage": "Gunakan malam.",
+                "benefits": "Perawatan intens untuk kulit sangat berminyak."
+            }
+        ]
+    },
+    "Kulit Kering": {
+        "ringan": [
+            {
+                "name": "Alenkosa Hydrating Cleanser",
+                "image": "",
+                "key_ingredients": [
+                    "Ceramide",
+                    "Glycerin"
+                ],
+                "usage": "Gunakan pagi & malam.",
+                "benefits": "Membersihkan tanpa membuat kulit semakin kering."
+            }
+        ],
+        "sedang": [
+            {
+                "name": "Alenkosa Deep Moisture Cream",
+                "image": "",
+                "key_ingredients": [
+                    "Hyaluronic Acid",
+                    "Ceramide",
+                    "Squalane"
+                ],
+                "usage": "Gunakan 2x sehari.",
+                "benefits": "Menghidrasi intens & memperbaiki skin barrier."
+            }
+        ],
+        "berat": [
+            {
+                "name": "Alenkosa Barrier Repair Balm",
+                "image": "",
+                "key_ingredients": [
+                    "Ceramide Complex",
+                    "Panthenol 5%"
+                ],
+                "usage": "Gunakan malam hari.",
+                "benefits": "Memperbaiki kulit sangat kering & mengelupas."
+            }
+        ]
+    },
+    "Kemerahan Kulit": {
+        "ringan": [
+            {
+                "name": "Alenkosa Soothing Gel",
+                "image": "",
+                "key_ingredients": [
+                    "Centella",
+                    "Aloe Vera"
+                ],
+                "usage": "Gunakan pagi & malam.",
+                "benefits": "Mengurangi iritasi & menenangkan kulit sensitif."
+            }
+        ],
+        "sedang": [
+            {
+                "name": "Alenkosa Redness Relief Serum",
+                "image": "",
+                "key_ingredients": [
+                    "Azelaic Acid 10%",
+                    "Niacinamide"
+                ],
+                "usage": "Gunakan malam.",
+                "benefits": "Menurunkan inflamasi dan meratakan warna kulit."
+            }
+        ],
+        "berat": [
+            {
+                "name": "Alenkosa Anti-Inflammation Cream",
+                "image": "",
+                "key_ingredients": [
+                    "Centella 95%",
+                    "Panthenol 5%"
+                ],
+                "usage": "Gunakan 2x sehari.",
+                "benefits": "Mengurangi flare-up & kemerahan berat."
+            }
+        ]
+    },
+    "Bekas Jerawat": {
+        "ringan": [
+            {
+                "name": "Alenkosa Brightening Serum",
+                "image": "",
+                "key_ingredients": [
+                    "Niacinamide 5%",
+                    "Alpha Arbutin"
+                ],
+                "usage": "Gunakan pagi & malam.",
+                "benefits": "Mencerahkan noda gelap baru."
+            }
+        ],
+        "sedang": [
+            {
+                "name": "Alenkosa Post Acne Corrector",
+                "image": "",
+                "key_ingredients": [
+                    "Azelaic Acid 15%",
+                    "PHA"
+                ],
+                "usage": "Gunakan malam.",
+                "benefits": "Menghilangkan bekas jerawat merah & coklat."
+            }
+        ],
+        "berat": [
+            {
+                "name": "Alenkosa Intensive Spot Fade Cream",
+                "image": "",
+                "key_ingredients": [
+                    "Tranexamic Acid 5%",
+                    "Retinol 0.5%"
+                ],
+                "usage": "Gunakan malam hari.",
+                "benefits": "Mengatasi PIH & PIE yang berat."
+            }
+        ]
+    },
+    "Papula": {
+        "ringan": [
+            {
+                "name": "Alenkosa Gentle BHA Cleanser",
+                "image": "",
+                "key_ingredients": [
+                    "Salicylic Acid 0.5%"
+                ],
+                "usage": "Gunakan malam.",
+                "benefits": "Membersihkan pori & menenangkan inflamasi kecil."
+            }
+        ],
+        "sedang": [
+            {
+                "name": "Alenkosa Papule Treatment Gel",
+                "image": "",
+                "key_ingredients": [
+                    "BHA 2%",
+                    "Niacinamide"
+                ],
+                "usage": "Gunakan pada area papula.",
+                "benefits": "Mengurangi peradangan & mempercepat penyembuhan."
+            }
+        ],
+        "berat": [
+            {
+                "name": "Alenkosa Advanced Acne Control",
+                "image": "",
+                "key_ingredients": [
+                    "Adapalene",
+                    "Tea Tree"
+                ],
+                "usage": "Gunakan malam hari.",
+                "benefits": "Perawatan untuk papula besar & meradang."
+            }
+        ]
+    },
+    "Pustula": {
+        "ringan": [
+            {
+                "name": "Alenkosa Pustule Gentle Care",
+                "image": "",
+                "key_ingredients": [
+                    "Centella",
+                    "Tea Tree"
+                ],
+                "usage": "Gunakan 2x sehari.",
+                "benefits": "Mengurangi kemerahan pustula & menenangkan kulit."
+            }
+        ],
+        "sedang": [
+            {
+                "name": "Alenkosa Pustule Spot Gel",
+                "image": "",
+                "key_ingredients": [
+                    "Benzoyl Peroxide 2.5%",
+                    "Niacinamide"
+                ],
+                "usage": "Gunakan malam.",
+                "benefits": "Mengeringkan pustula lebih cepat."
+            }
+        ],
+        "berat": [
+            {
+                "name": "Alenkosa Intensive Pustule Treatment",
+                "image": "",
+                "key_ingredients": [
+                    "Adapalene",
+                    "Azelaic Acid"
+                ],
+                "usage": "Gunakan malam.",
+                "benefits": "Mengatasi pustula kategori berat."
+            }
+        ]
+    },
+    "Nodul Jerawat": {
+        "ringan": [
+            {
+                "name": "Alenkosa Soothing BHA Gel",
+                "image": "",
+                "key_ingredients": [
+                    "BHA 1%",
+                    "Centella"
+                ],
+                "usage": "Gunakan 1x sehari.",
+                "benefits": "Mengurangi rasa sakit pada nodul kecil."
+            }
+        ],
+        "sedang": [
+            {
+                "name": "Alenkosa Nodular Treatment Serum",
+                "image": "",
+                "key_ingredients": [
+                    "Adapalene 0.1%",
+                    "Retinol"
+                ],
+                "usage": "Gunakan malam.",
+                "benefits": "Melunakkan & mempercepat penyembuhan nodul."
+            }
+        ],
+        "berat": [
+            {
+                "name": "Alenkosa Strong Acne Therapy",
+                "image": "",
+                "key_ingredients": [
+                    "Benzoyl Peroxide 5%",
+                    "Retinoid"
+                ],
+                "usage": "Gunakan malam.",
+                "benefits": "Untuk nodul jerawat yang besar dan meradang."
+            }
+        ]
+    },
+    "Jerawat Kistik": {
+        "ringan": [
+            {
+                "name": "Alenkosa Cystic Relief Gel",
+                "image": "",
+                "key_ingredients": [
+                    "Azelaic Acid 10%",
+                    "Tea Tree"
+                ],
+                "usage": "Gunakan malam.",
+                "benefits": "Mengurangi tekanan cystic acne kecil."
+            }
+        ],
+        "sedang": [
+            {
+                "name": "Alenkosa Cystic Treatment Serum",
+                "image": "",
+                "key_ingredients": [
+                    "Adapalene",
+                    "Benzoyl Peroxide 2.5%"
+                ],
+                "usage": "Gunakan hanya malam.",
+                "benefits": "Mengatasi cystic acne menengah."
+            }
+        ],
+        "berat": [
+            {
+                "name": "Alenkosa Intensive Cystic Therapy",
+                "image": "",
+                "key_ingredients": [
+                    "High Strength Retinoid",
+                    "Niacinamide"
+                ],
+                "usage": "Gunakan malam hari.",
+                "benefits": "Mengurangi inflamasi cystic acne berat."
+            }
+        ]
+    },
+    "Folikulitis": {
+        "ringan": [
+            {
+                "name": "Alenkosa Anti-bacterial Wash",
+                "image": "",
+                "key_ingredients": [
+                    "Tea Tree",
+                    "Zinc PCA"
+                ],
+                "usage": "Gunakan 1x sehari.",
+                "benefits": "Mengurangi bakteri penyebab folikulitis kecil."
+            }
+        ],
+        "sedang": [
+            {
+                "name": "Alenkosa Follicle Treatment Gel",
+                "image": "",
+                "key_ingredients": [
+                    "BHA 2%",
+                    "Azelaic Acid"
+                ],
+                "usage": "Gunakan malam.",
+                "benefits": "Mengurangi inflamasi & memperbaiki folikel rambut."
+            }
+        ],
+        "berat": [
+            {
+                "name": "Alenkosa Anti-Inflammation Balm",
+                "image": "",
+                "key_ingredients": [
+                    "Sulfur",
+                    "Centella"
+                ],
+                "usage": "Gunakan malam hari.",
+                "benefits": "Untuk folikulitis berat & meradang."
+            }
+        ]
+    },
+    "Milia": {
+        "ringan": [
+            {
+                "name": "Alenkosa Gentle PHA Toner",
+                "image": "",
+                "key_ingredients": [
+                    "PHA",
+                    "Hyaluronic Acid"
+                ],
+                "usage": "Gunakan malam.",
+                "benefits": "Mengangkat sel kulit mati penyebab milia."
+            }
+        ],
+        "sedang": [
+            {
+                "name": "Alenkosa Milia Clearing Serum",
+                "image": "",
+                "key_ingredients": [
+                    "AHA 5%",
+                    "Retinol 0.2%"
+                ],
+                "usage": "Gunakan malam.",
+                "benefits": "Membantu membuka milia yang sudah terbentuk."
+            }
+        ],
+        "berat": [
+            {
+                "name": "Alenkosa Advanced Milia Therapy",
+                "image": "",
+                "key_ingredients": [
+                    "AHA 10%",
+                    "Retinol 0.5%"
+                ],
+                "usage": "Gunakan malam hari.",
+                "benefits": "Mengatasi milia tebal & persisten."
+            }
+        ]
+    },
+    "Keloid": {
+        "ringan": [
+            {
+                "name": "Alenkosa Scar Care Gel",
+                "image": "",
+                "key_ingredients": [
+                    "Silicone Gel",
+                    "Centella"
+                ],
+                "usage": "Gunakan 2x sehari.",
+                "benefits": "Menjaga permukaan kulit lembut & mencegah pembesaran keloid."
+            }
+        ],
+        "sedang": [
+            {
+                "name": "Alenkosa Scar Repair Serum",
+                "image": "",
+                "key_ingredients": [
+                    "Silicone Blend",
+                    "Niacinamide"
+                ],
+                "usage": "Gunakan malam.",
+                "benefits": "Mengurangi tekstur kasar & menghambat pertumbuhan keloid."
+            }
+        ],
+        "berat": [
+            {
+                "name": "Alenkosa Intensive Keloid Therapy",
+                "image": "",
+                "key_ingredients": [
+                    "Silicone Occlusive",
+                    "Retinoid"
+                ],
+                "usage": "Gunakan malam.",
+                "benefits": "Menghaluskan keloid lama & tebal."
+            }
+        ]
+    },
+    "Siringoma": {
+        "ringan": [
+            {
+                "name": "Alenkosa Texture Smoother",
+                "image": "",
+                "key_ingredients": [
+                    "AHA",
+                    "PHA"
+                ],
+                "usage": "Gunakan malam.",
+                "benefits": "Menghaluskan tekstur di area sekitar mata."
+            }
+        ],
+        "sedang": [
+            {
+                "name": "Alenkosa Siringoma Control Serum",
+                "image": "",
+                "key_ingredients": [
+                    "Retinol Eye-Safe",
+                    "Niacinamide"
+                ],
+                "usage": "Gunakan malam hari.",
+                "benefits": "Mengurangi tampilan siringoma secara bertahap."
+            }
+        ],
+        "berat": [
+            {
+                "name": "Alenkosa Intensive Eyes Treatment",
+                "image": "",
+                "key_ingredients": [
+                    "Adapalene Low Strength"
+                ],
+                "usage": "Gunakan malam, hindari iritasi.",
+                "benefits": "Untuk siringoma tebal dan persisten."
+            }
+        ]
+    },
+    "Kutil Datar": {
+        "ringan": [
+            {
+                "name": "Alenkosa Exfoliating Gel",
+                "image": "",
+                "key_ingredients": [
+                    "AHA",
+                    "Tea Tree"
+                ],
+                "usage": "Gunakan malam.",
+                "benefits": "Menghaluskan kutil datar kecil."
+            }
+        ],
+        "sedang": [
+            {
+                "name": "Alenkosa Wart Treatment Serum",
+                "image": "",
+                "key_ingredients": [
+                    "Salicylic Acid 2%"
+                ],
+                "usage": "Gunakan malam.",
+                "benefits": "Mengurangi kutil datar secara bertahap."
+            }
+        ],
+        "berat": [
+            {
+                "name": "Alenkosa Intensive Wart Therapy",
+                "image": "",
+                "key_ingredients": [
+                    "Salicylic Acid 5%",
+                    "Phenolic Extract"
+                ],
+                "usage": "Gunakan area kecil malam hari.",
+                "benefits": "Perawatan untuk kutil datar yang tebal."
+            }
+        ]
+    }
+}
