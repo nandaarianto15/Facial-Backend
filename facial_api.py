@@ -5,6 +5,7 @@ Backend API untuk analisis kondisi kulit wajah dari 3 sudut (left, center, right
 dengan pipeline deteksi lengkap (boosted ensemble + adaptive fusion).
 + Notifikasi Email & WhatsApp otomatis (dengan attachment gambar).
 + Endpoint Register User Terpisah.
++ Fix Environment Variables.
 """
 
 import os
@@ -43,10 +44,9 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, Session
 from pydantic import BaseModel
 
-# Ganti dengan kredensial database kamu
-# DATABASE_URL = "mysql+pymysql://root:@localhost/mirrasense" 
-DATABASE_URL = os.getenv("DATABASE_URL", "mysql+pymysql://mirra_user:passwordkuat123@localhost/mirrasense")
-# Format: mysql+pymysql://username:password@host/dbname
+# Konfigurasi Database via Environment Variable
+# Default diisi untuk kemudahan lokal, tapi akan ditimpa oleh Systemd di server
+DATABASE_URL = os.getenv("DATABASE_URL", "mysql+pymysql://root:@localhost/mirrasense")
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
@@ -92,11 +92,7 @@ from collections import defaultdict
 #  KONFIGURASI NOTIFIKASI
 # ============================================================
 
-# Aktifkan 2FA di Gmail dan buat App Password: https://myaccount.google.com/apppasswords
-# SMTP_SERVER = "smtp.gmail.com"
-# SMTP_PORT = 587
-# SMTP_USERNAME = "nandaarianto58@gmail.com"
-# SMTP_PASSWORD = "nbwzecekclklzird"
+# Ambil konfigurasi dari Environment Variable (aman untuk produksi)
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 SMTP_USERNAME = os.getenv("SMTP_USERNAME", "nandaarianto58@gmail.com")
@@ -112,7 +108,7 @@ WA_API_TOKEN = os.getenv("WA_API_TOKEN", "token_api_wa_kalian")
 
 app = FastAPI(
     title="Skin Analysis Backend",
-    version="2.4.0",
+    version="2.4.1",
     description="Backend analisis kulit dengan YOLO + Notifikasi Email + DB Storage."
 )
 
