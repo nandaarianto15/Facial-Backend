@@ -44,7 +44,8 @@ from sqlalchemy.orm import sessionmaker, Session
 from pydantic import BaseModel
 
 # Ganti dengan kredensial database kamu
-DATABASE_URL = "mysql+pymysql://root:@localhost/mirrasense" 
+# DATABASE_URL = "mysql+pymysql://root:@localhost/mirrasense" 
+DATABASE_URL = os.getenv("DATABASE_URL", "mysql+pymysql://mirra_user:passwordkuat123@localhost/mirrasense")
 # Format: mysql+pymysql://username:password@host/dbname
 
 engine = create_engine(DATABASE_URL)
@@ -92,14 +93,18 @@ from collections import defaultdict
 # ============================================================
 
 # Aktifkan 2FA di Gmail dan buat App Password: https://myaccount.google.com/apppasswords
+# SMTP_SERVER = "smtp.gmail.com"
+# SMTP_PORT = 587
+# SMTP_USERNAME = "nandaarianto58@gmail.com"
+# SMTP_PASSWORD = "nbwzecekclklzird"
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-SMTP_USERNAME = "nandaarianto58@gmail.com"
-SMTP_PASSWORD = "nbwzecekclklzird"
+SMTP_USERNAME = os.getenv("SMTP_USERNAME", "nandaarianto58@gmail.com")
+SMTP_PASSWORD = os.getenv("SMTP_PASSWORD", "nbwzecekclklzird")
 
 # Konfigurasi WhatsApp Gateway
 WA_API_URL = "https://api.fonnte.com/send" 
-WA_API_TOKEN = "token_api_wa_kalian"
+WA_API_TOKEN = os.getenv("WA_API_TOKEN", "token_api_wa_kalian")
 
 # ============================================================
 #  FASTAPI APP INIT
